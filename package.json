@@ -1,7 +1,7 @@
 {
-  "name": "whack-a-mole",
+  "name": "calendar-todo",
   "version": "1.0.0",
-  "description": "Whack-a-Mole Project for Bootcamp Prep",
+  "description": "Calendar Todo Project for Bootcamp Prep",
   "author": "Ken Huh <ken@vanillacoding.co>",
   "license": "MIT",
   "scripts": {

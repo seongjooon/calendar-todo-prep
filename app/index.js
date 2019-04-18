@@ -1,8 +1,12 @@
 // Load application styles
 import 'styles/index.css';
+import server from './server';
 
 // ================================
 // START YOUR APP HERE
 // ================================
 
-alert('Getting Started? Look for index.js inside app directory.');
+// You can get the initial data
+server.get(function (data) {
+  alert('Here is the data: ' + JSON.stringify(data));
+});
