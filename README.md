@@ -33,3 +33,4 @@ $ npm start
 3. Todo List는 날짜별로 관리되기 때문에, 날짜를 클릭할때마다 Todo List는 클릭된 날짜에 해당하는 Todo List를 보여주어야 합니다.
 4. Todo List의 기능 및 스타일은 [샘플 링크](http://todomvc.com/examples/vue/)를 참고하여 작업해주세요.
 
+**Todo 정보를 어떤 형식의 구조로 다룰 것인지에 대해 깊게 고민해보세요.**
