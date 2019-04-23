@@ -44,3 +44,4 @@ $ npm start
 - 선택된 날짜 표기 기능 (날짜 숫자색 변경)
 - 날짜 선택시, 해당 날짜에 대한 Todo List 보여주기 기능
 - Todo List에 Todo Item 추가 기능 (해당 날짜의 Todo Item으로 추가됨)
+- 다른 날짜 선택시, 새롭게 선택된 날짜에 대한 Todo List 보여주기 기능
