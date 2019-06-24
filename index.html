@@ -1,12 +1,60 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
-  <title>Vanilla Coding | Bootcamp Prep</title>
+  <title>투두 캘린덜</title>
 </head>
+
 <body>
-  <img src="/assets/images/vc.png" alt="Vanilla Coding Logo" />
-  <h1>Calendar Todo Project</h1>
+
+  <div class="window-box">
+    <div class="today-box">
+      <div class="day-box"></div>
+      <div class="date-box"></div>
+    </div>
+
+    <div id="abel-calendar"></div>
+
+    <div class="calendar-box">
+      <button class="left-btn"><</button>
+      <button class="right-btn">></button>
+      <div class="year-n-month-box"></div>
+      <table class="calendar">
+        <thead class="day-names">
+          <tr>
+            <th>S</th>
+            <th>M</th>
+            <th>T</th>
+            <th>W</th>
+            <th>T</th>
+            <th>F</th>
+            <th>S</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="week" id="firstW"></tr>
+          <tr class="week" id="secondW"></tr>
+          <tr class="week" id="thirdW"></tr>
+          <tr class="week" id="fourthW"></tr>
+          <tr class="week" id="fifthW"></tr>
+          <tr class="week" id="sixthW"></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="todolist-box">
+    <h1>TODO List</h1>
+    <span>TODO Plus</span>
+    <input type="text" class="create-data">
+  </div>
+  <div class="todoupdated-box">
+    <ul></ul>
+  </div>
+
+
 </body>
+
 </html>
